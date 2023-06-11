@@ -1,0 +1,12 @@
+.more-info {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch; */
+}
+.more-info__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
