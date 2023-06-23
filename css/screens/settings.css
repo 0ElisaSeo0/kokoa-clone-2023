@@ -1,0 +1,19 @@
+.settings-header {
+  display: flex;
+  margin: 20px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-header__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.settings-main__column {
+  padding: 20px 0px;
+  border-bottom: var(--main-border);
+  font-size: 20px;
+}
+.settings-main__column:last-child {
+  display: flex;
+  justify-content: space-between;
+}

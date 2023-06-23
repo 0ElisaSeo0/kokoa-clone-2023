@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Talk</title>
+    <title>Settings - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,42 +23,30 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span>
-          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-        </span>
-        <span>
-          <i class="fa-regular fa-comment fa-xl"></i>
-        </span>
-        <span>
-          <i class="fa-solid fa-music fa-lg"></i>
-        </span>
-        <span>
-          <i class="fa-solid fa-gear fa-lg"></i>
-        </span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"> <i class="fa-solid fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__title">Settings</div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="screenshots/kpop image.jpg"
-              class="user-component__avatar" />
-            <div class="user-component__text">
-              <h4 class="user-component__title">KokoaTalk</h4>
-              <h6 class="user-component__subtitle">Please check my Account</h6>
-            </div>
-          </div>
-          <div class="user-component__column user-component__column--chat">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
-          </div>
-        </div>
-      </a>
+      <ul class="settings-list">
+        <li class="settings-main__column">
+          <i class="fa-solid fa-volume-off"></i> <span>Notices</span>
+        </li>
+        <li class="settings-main__column">
+          <i class="fa-solid fa-volume-off"></i> <span>Kakao Lab</span>
+        </li>
+        <li class="settings-main__column">
+          <div><i class="fa-solid fa-volume-off"></i> <span>Version</span></div>
+
+          <div>Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -70,8 +58,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification">1</span>
-            <i class="fa fa-light fa-comment fa-lg"></i>
+            <i class="fa-regular fa-comment fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">
